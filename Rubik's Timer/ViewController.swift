@@ -15,12 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
     }
-
+// Outlets and actions for main time logger
     @IBOutlet weak var randomScramble: UILabel!
     @IBOutlet weak var timeSolved: UITextField!
     @IBAction func enterTime(_ sender: Any) {
         
     }
+    
+//Outlets and actions for countdown timer
+    
+    
+//Outlets and actions for time logs
     
     
 }
