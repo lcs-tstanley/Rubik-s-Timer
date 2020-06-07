@@ -1,5 +1,5 @@
 //
-//  ParentViewController.swift
+//  ChildViewControllerCountdown.swift
 //  Rubik's Timer
 //
 //  Created by Stanley, Trent on 2020-06-07.
@@ -8,8 +8,7 @@
 
 import UIKit
 
-class ParentViewController: UIViewController {
+class ChildViewControllerCountdown: UIViewController {
 
-    
-    
-}
+
+    }
