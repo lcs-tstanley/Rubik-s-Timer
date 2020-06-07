@@ -10,6 +10,7 @@
 		1A686545248D5C1800E9ABDA /* ChildViewControllerInputTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */; };
 		1A686547248D5FBC00E9ABDA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686546248D5FBC00E9ABDA /* ParentViewController.swift */; };
 		1A686549248D60BB00E9ABDA /* ChildViewControllerCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */; };
+		1A68654B248D614800E9ABDA /* ChildViewControllerTimeLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68654A248D614800E9ABDA /* ChildViewControllerTimeLogs.swift */; };
 		1A74401F247C0F4900B70D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74401E247C0F4900B70D34 /* AppDelegate.swift */; };
 		1A744021247C0F4900B70D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744020247C0F4900B70D34 /* SceneDelegate.swift */; };
 		1A744026247C0F4900B70D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A744024247C0F4900B70D34 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerInputTime.swift; sourceTree = "<group>"; };
 		1A686546248D5FBC00E9ABDA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerCountdown.swift; sourceTree = "<group>"; };
+		1A68654A248D614800E9ABDA /* ChildViewControllerTimeLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerTimeLogs.swift; sourceTree = "<group>"; };
 		1A74401B247C0F4900B70D34 /* Rubik's Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rubik's Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A74401E247C0F4900B70D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A744020247C0F4900B70D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				1A744027247C0F4F00B70D34 /* Assets.xcassets */,
 				1A744029247C0F4F00B70D34 /* LaunchScreen.storyboard */,
 				1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */,
+				1A68654A248D614800E9ABDA /* ChildViewControllerTimeLogs.swift */,
 			);
 			path = "Rubik's Timer";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A74401F247C0F4900B70D34 /* AppDelegate.swift in Sources */,
+				1A68654B248D614800E9ABDA /* ChildViewControllerTimeLogs.swift in Sources */,
 				1A744021247C0F4900B70D34 /* SceneDelegate.swift in Sources */,
 				1A686547248D5FBC00E9ABDA /* ParentViewController.swift in Sources */,
 				1A686549248D60BB00E9ABDA /* ChildViewControllerCountdown.swift in Sources */,

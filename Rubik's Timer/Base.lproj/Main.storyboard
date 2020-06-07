@@ -54,10 +54,10 @@
             </objects>
             <point key="canvasLocation" x="1942" y="-248"/>
         </scene>
-        <!--View Controller-->
+        <!--Child View Controller Time Logs-->
         <scene sceneID="Spc-bu-Loy">
             <objects>
-                <viewController id="1Bn-UH-90c" sceneMemberID="viewController">
+                <viewController id="1Bn-UH-90c" customClass="ChildViewControllerTimeLogs" customModule="Rubik_s_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vYZ-8Z-n1m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1941.5999999999999" y="610.34482758620697"/>
         </scene>
-        <!--View Controller-->
+        <!--Child View Controller Countdown-->
         <scene sceneID="rSe-UN-ARf">
             <objects>
-                <viewController id="gGN-fJ-V9c" sceneMemberID="viewController">
+                <viewController id="gGN-fJ-V9c" customClass="ChildViewControllerCountdown" customModule="Rubik_s_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="80q-8D-zv6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
