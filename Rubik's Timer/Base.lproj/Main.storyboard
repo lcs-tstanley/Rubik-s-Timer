@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Child View Controller Input Time-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rubik_s_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ChildViewControllerInputTime" customModule="Rubik_s_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Enter Time"/>
                                 <connections>
-                                    <action selector="enterTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FQf-ip-ctj"/>
+                                    <action selector="enterTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jO-yF-Yzf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scramble" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="AjG-LL-XKa">
@@ -47,7 +47,7 @@
                     <navigationItem key="navigationItem" id="whw-jP-WcF"/>
                     <connections>
                         <outlet property="randomScramble" destination="AjG-LL-XKa" id="6ir-Iy-uCQ"/>
-                        <outlet property="timeSolved" destination="LdC-Q2-zDe" id="Nfe-Jd-gNk"/>
+                        <outlet property="timeSolved" destination="LdC-Q2-zDe" id="b2f-qn-c0u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -171,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="2640.8000000000002" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Parent View Controller-->
         <scene sceneID="gAt-OT-tmV">
             <objects>
-                <viewController id="Njl-0h-LNn" sceneMemberID="viewController">
+                <viewController id="Njl-0h-LNn" customClass="ParentViewController" customModule="Rubik_s_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WlT-s0-ePa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

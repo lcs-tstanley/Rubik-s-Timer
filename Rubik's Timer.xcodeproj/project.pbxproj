@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A686545248D5C1800E9ABDA /* ChildViewControllerInputTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */; };
+		1A686547248D5FBC00E9ABDA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686546248D5FBC00E9ABDA /* ParentViewController.swift */; };
 		1A74401F247C0F4900B70D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74401E247C0F4900B70D34 /* AppDelegate.swift */; };
 		1A744021247C0F4900B70D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744020247C0F4900B70D34 /* SceneDelegate.swift */; };
-		1A744023247C0F4900B70D34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A744022247C0F4900B70D34 /* ViewController.swift */; };
 		1A744026247C0F4900B70D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A744024247C0F4900B70D34 /* Main.storyboard */; };
 		1A744028247C0F4F00B70D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A744027247C0F4F00B70D34 /* Assets.xcassets */; };
 		1A74402B247C0F4F00B70D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A744029247C0F4F00B70D34 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerInputTime.swift; sourceTree = "<group>"; };
+		1A686546248D5FBC00E9ABDA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		1A74401B247C0F4900B70D34 /* Rubik's Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rubik's Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A74401E247C0F4900B70D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A744020247C0F4900B70D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A744022247C0F4900B70D34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A744025247C0F4900B70D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A744027247C0F4F00B70D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A74402A247C0F4F00B70D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				1A74401D247C0F4900B70D34 /* Rubik's Timer */,
-				1A74401C247C0F4900B70D34 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +52,7 @@
 				1A74401B247C0F4900B70D34 /* Rubik's Timer.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		1A74401D247C0F4900B70D34 /* Rubik's Timer */ = {
@@ -58,7 +60,9 @@
 			children = (
 				1A74401E247C0F4900B70D34 /* AppDelegate.swift */,
 				1A744020247C0F4900B70D34 /* SceneDelegate.swift */,
-				1A744022247C0F4900B70D34 /* ViewController.swift */,
+				1A74401C247C0F4900B70D34 /* Products */,
+				1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */,
+				1A686546248D5FBC00E9ABDA /* ParentViewController.swift */,
 				1A744024247C0F4900B70D34 /* Main.storyboard */,
 				1A744027247C0F4F00B70D34 /* Assets.xcassets */,
 				1A744029247C0F4F00B70D34 /* LaunchScreen.storyboard */,
@@ -138,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A744023247C0F4900B70D34 /* ViewController.swift in Sources */,
 				1A74401F247C0F4900B70D34 /* AppDelegate.swift in Sources */,
 				1A744021247C0F4900B70D34 /* SceneDelegate.swift in Sources */,
+				1A686547248D5FBC00E9ABDA /* ParentViewController.swift in Sources */,
+				1A686545248D5C1800E9ABDA /* ChildViewControllerInputTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
