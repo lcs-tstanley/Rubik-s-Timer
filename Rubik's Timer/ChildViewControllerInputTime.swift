@@ -13,6 +13,9 @@ class ChildViewControllerInputTime: UIViewController {
     // MARK: Properties
     
     @IBOutlet weak var timeSolved: UITextField!
+    
+     var delegate: timeInput?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

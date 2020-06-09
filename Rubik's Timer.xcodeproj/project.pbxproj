@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A39B0A6248FCE7200C1D983 /* timeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39B0A5248FCE7200C1D983 /* timeInput.swift */; };
 		1A686545248D5C1800E9ABDA /* ChildViewControllerInputTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */; };
 		1A686547248D5FBC00E9ABDA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686546248D5FBC00E9ABDA /* ParentViewController.swift */; };
 		1A686549248D60BB00E9ABDA /* ChildViewControllerCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A39B0A5248FCE7200C1D983 /* timeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeInput.swift; sourceTree = "<group>"; };
 		1A686544248D5C1800E9ABDA /* ChildViewControllerInputTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerInputTime.swift; sourceTree = "<group>"; };
 		1A686546248D5FBC00E9ABDA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerCountdown.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				1A744029247C0F4F00B70D34 /* LaunchScreen.storyboard */,
 				1A686548248D60BB00E9ABDA /* ChildViewControllerCountdown.swift */,
 				1A68654A248D614800E9ABDA /* ChildViewControllerTimeLogs.swift */,
+				1A39B0A5248FCE7200C1D983 /* timeInput.swift */,
 			);
 			path = "Rubik's Timer";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A39B0A6248FCE7200C1D983 /* timeInput.swift in Sources */,
 				1A74401F247C0F4900B70D34 /* AppDelegate.swift in Sources */,
 				1A68654B248D614800E9ABDA /* ChildViewControllerTimeLogs.swift in Sources */,
 				1A744021247C0F4900B70D34 /* SceneDelegate.swift in Sources */,

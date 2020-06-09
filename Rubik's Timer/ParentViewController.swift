@@ -8,8 +8,18 @@
 
 import UIKit
 
-class ParentViewController: UIViewController {
-
+class ParentViewController: UIViewController, timeInput {
     
+    var allTimes: [Time] = []
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // What is the destination of this segue?
+        if let childController = segue.destination as? ChildViewControllerInputTime {
+            
+            // Register this controller, the parent, as something that can save books
+            childController.delegate = self
+            
+        }
+    }
 }
